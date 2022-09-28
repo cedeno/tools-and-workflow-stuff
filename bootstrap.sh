@@ -18,7 +18,7 @@ sudo apt-get update -y
 rm -fr erlang-solutions*
 
 echo "Installs packages. Give your password when asked."
-sudo apt-get install esl-erlang=1:24.3.3-1
+sudo apt-get install esl-erlang=1:24.3.3-1 -y
 sudo apt-get install elixir -y
 
 echo "Install Hex, Elixir package manager"
